@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Parametry połączenia używane w pliku web.config przez aplikację w celu uzyskiwania dostępu do bazy danych." defaultValue="Server=tcp:sgolinsk.database.windows.net,1433;Initial Catalog=signal;Persist Security Info=False;User ID=sgolinsk;Password=Polkim10;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=3" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ThamedPC\\source\\Workspaces\\API\\API\\API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="SignalRDBContext-Web.config Connection String" description="SignalRDBContext Parametry połączenia używane w pliku web.config przez aplikację w celu uzyskiwania dostępu do bazy danych." defaultValue="Server=tcp:sgolinsk.database.windows.net,1433;Initial Catalog=signal;Persist Security Info=False;User ID=sgolinsk;Password=Polkim10;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=3" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ThamedPC\\source\\Workspaces\\API\\API\\API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SignalRDBContext']/@connectionString" />
+  </parameter>
+</parameters>
